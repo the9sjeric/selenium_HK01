@@ -12,7 +12,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 class TestWechatlogin():
 
     def setup(self):
-        # 首先进入chrome安装文件夹/Google/Chrome/Application下，使用gitbash运行一下命令
+        # 首先进入chrome安装文件夹/Google/Chrome/Application下，使用gitbash运行以下命令
         # ./chrome --remote-debugging-port=9222
         # 启动一个Debug监听端口的浏览器(测试结束前都不能关闭)
 
